@@ -3,19 +3,27 @@
   "WorkspaceRootPath": "C:\\Users\\hugom\\Downloads\\Delivery02_GroupE-main\\Delivery02_GroupE-main\\Delivery02_Template\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CC5585A9-18FE-3F6B-73A3-17ED3D0983DF}|Assembly-CSharp.csproj|C:\\Users\\hugom\\Downloads\\Delivery02_GroupE-main\\Delivery02_GroupE-main\\Delivery02_Template\\assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC5585A9-18FE-3F6B-73A3-17ED3D0983DF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CC5585A9-18FE-3F6B-73A3-17ED3D0983DF}|Assembly-CSharp.csproj|c:\\users\\hugom\\downloads\\delivery02_groupe-main\\delivery02_groupe-main\\delivery02_template\\assets\\scripts\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC5585A9-18FE-3F6B-73A3-17ED3D0983DF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC5585A9-18FE-3F6B-73A3-17ED3D0983DF}|Assembly-CSharp.csproj|c:\\users\\hugom\\downloads\\delivery02_groupe-main\\delivery02_groupe-main\\delivery02_template\\assets\\scripts\\enemyai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC5585A9-18FE-3F6B-73A3-17ED3D0983DF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemyai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CC5585A9-18FE-3F6B-73A3-17ED3D0983DF}|Assembly-CSharp.csproj|C:\\Users\\hugom\\Downloads\\Delivery02_GroupE-main\\Delivery02_GroupE-main\\Delivery02_Template\\assets\\scripts\\enemyalarm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CC5585A9-18FE-3F6B-73A3-17ED3D0983DF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemyalarm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{CC5585A9-18FE-3F6B-73A3-17ED3D0983DF}|Assembly-CSharp.csproj|C:\\Users\\hugom\\Downloads\\Delivery02_GroupE-main\\Delivery02_GroupE-main\\Delivery02_Template\\assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC5585A9-18FE-3F6B-73A3-17ED3D0983DF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CC5585A9-18FE-3F6B-73A3-17ED3D0983DF}|Assembly-CSharp.csproj|C:\\Users\\hugom\\Downloads\\Delivery02_GroupE-main\\Delivery02_GroupE-main\\Delivery02_Template\\assets\\scripts\\playeranimation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CC5585A9-18FE-3F6B-73A3-17ED3D0983DF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playeranimation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CC5585A9-18FE-3F6B-73A3-17ED3D0983DF}|Assembly-CSharp.csproj|c:\\users\\hugom\\downloads\\delivery02_groupe-main\\delivery02_groupe-main\\delivery02_template\\assets\\scripts\\enemypatrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CC5585A9-18FE-3F6B-73A3-17ED3D0983DF}|Assembly-CSharp.csproj|C:\\Users\\hugom\\Downloads\\Delivery02_GroupE-main\\Delivery02_GroupE-main\\Delivery02_Template\\assets\\scripts\\enemypatrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CC5585A9-18FE-3F6B-73A3-17ED3D0983DF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemypatrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -26,11 +34,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "Bullet.cs",
+              "DocumentMoniker": "C:\\Users\\hugom\\Downloads\\Delivery02_GroupE-main\\Delivery02_GroupE-main\\Delivery02_Template\\Assets\\Scripts\\Bullet.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Bullet.cs",
+              "ToolTip": "C:\\Users\\hugom\\Downloads\\Delivery02_GroupE-main\\Delivery02_GroupE-main\\Delivery02_Template\\Assets\\Scripts\\Bullet.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Bullet.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T16:59:46.615Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EnemyAI.cs",
+              "DocumentMoniker": "C:\\Users\\hugom\\Downloads\\Delivery02_GroupE-main\\Delivery02_GroupE-main\\Delivery02_Template\\Assets\\Scripts\\EnemyAI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyAI.cs",
+              "ToolTip": "C:\\Users\\hugom\\Downloads\\Delivery02_GroupE-main\\Delivery02_GroupE-main\\Delivery02_Template\\Assets\\Scripts\\EnemyAI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EnemyAI.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAgwGAAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T11:43:12.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "EnemyPatrol.cs",
               "DocumentMoniker": "C:\\Users\\hugom\\Downloads\\Delivery02_GroupE-main\\Delivery02_GroupE-main\\Delivery02_Template\\Assets\\Scripts\\EnemyPatrol.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyPatrol.cs",
@@ -38,12 +72,11 @@
               "RelativeToolTip": "Assets\\Scripts\\EnemyPatrol.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-05T12:34:22.121Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-05T12:34:22.121Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "PlayerAnimation.cs",
               "DocumentMoniker": "C:\\Users\\hugom\\Downloads\\Delivery02_GroupE-main\\Delivery02_GroupE-main\\Delivery02_Template\\Assets\\Scripts\\PlayerAnimation.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerAnimation.cs",
@@ -51,25 +84,23 @@
               "RelativeToolTip": "Assets\\Scripts\\PlayerAnimation.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-05T11:28:32.229Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-05T11:28:32.229Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "EnemyAlarm.cs",
               "DocumentMoniker": "C:\\Users\\hugom\\Downloads\\Delivery02_GroupE-main\\Delivery02_GroupE-main\\Delivery02_Template\\Assets\\Scripts\\EnemyAlarm.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyAlarm.cs",
               "ToolTip": "C:\\Users\\hugom\\Downloads\\Delivery02_GroupE-main\\Delivery02_GroupE-main\\Delivery02_Template\\Assets\\Scripts\\EnemyAlarm.cs",
               "RelativeToolTip": "Assets\\Scripts\\EnemyAlarm.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAuwCEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAzwCEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-05T11:28:12.118Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-05T11:28:12.118Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "PlayerMovement.cs",
               "DocumentMoniker": "C:\\Users\\hugom\\Downloads\\Delivery02_GroupE-main\\Delivery02_GroupE-main\\Delivery02_Template\\Assets\\Scripts\\PlayerMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerMovement.cs",
@@ -77,8 +108,7 @@
               "RelativeToolTip": "Assets\\Scripts\\PlayerMovement.cs",
               "ViewState": "AgIAABgAAAAAAAAAAAAQwDYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-05T11:26:32.854Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-05T11:26:32.854Z"
             }
           ]
         }
