@@ -85,7 +85,7 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\VisionDetector.cs",
               "ToolTip": "C:\\Users\\Usuario\\Downloads\\StealthGame_GroupE\\Delivery02_Template\\Assets\\Scripts\\VisionDetector.cs",
               "RelativeToolTip": "Assets\\Scripts\\VisionDetector.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAiwHMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-10T15:33:19.117Z",
               "EditorCaption": ""
@@ -170,7 +170,7 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyAI.cs",
               "ToolTip": "C:\\Users\\Usuario\\Downloads\\StealthGame_GroupE\\Delivery02_Template\\Assets\\Scripts\\EnemyAI.cs",
               "RelativeToolTip": "Assets\\Scripts\\EnemyAI.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-06T11:43:12.875Z",
               "EditorCaption": ""
@@ -221,8 +221,7 @@
               "RelativeToolTip": "Assets\\Scripts\\PlayerMovement.cs",
               "ViewState": "AgIAAB4AAAAAAAAAAAAAABIAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-05T11:26:32.854Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-05T11:26:32.854Z"
             }
           ]
         }

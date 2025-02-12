@@ -1641,7 +1641,7 @@ MonoBehaviour:
   patrolSpeed: 1.5
   chaseSpeed: 2
   detectionRadius: 3
-  fieldOfView: 90
+  fieldOfView: 60
   obstacleMask:
     serializedVersion: 2
     m_Bits: 512
@@ -2278,13 +2278,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1059447848}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.28, y: -6.99, z: -0}
+  m_LocalRotation: {x: 0.000019712594, y: -0.000021849346, z: 0.7123202, w: -0.7018546}
+  m_LocalPosition: {x: -0.28000003, y: -6.99, z: -4.3655746e-11}
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 773236604}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0.003, z: -90.848}
 --- !u!50 &1059447850
 Rigidbody2D:
   serializedVersion: 5
