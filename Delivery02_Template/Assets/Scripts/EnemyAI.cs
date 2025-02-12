@@ -1,180 +1,142 @@
+ï»¿
 using UnityEngine;
-using UnityEngine.SceneManagement; // Si usas SceneManager para cambiar de escena
+using UnityEngine.SceneManagement;
 
 public class EnemyAI : MonoBehaviour
 {
-    // Puntos de patrulla
     [Header("Patrulla")]
     public Transform pointA;
     public Transform pointB;
-    public float patrolSpeed = 3f; // Velocidad al patrullar
+    public float patrolSpeed = 3f;
 
-    // Configuración de persecución
-    [Header("Persecución")]
-    public float chaseSpeed = 2.5f;       // Velocidad al perseguir
-    public float detectionRadius = 3f;    // Rango de visión para iniciar la persecución
+    [Header("PersecuciÃ³n")]
+    public float chaseSpeed = 2.5f;
+    public float detectionRadius = 3f;
+    public float fieldOfView = 90f;
+    public LayerMask obstacleMask;
+    public LayerMask playerMask;
 
-    // Configuración para atrapar al jugador (opcional)
-    public float catchDistance = 0.5f;    // Distancia para considerar que el jugador ha sido atrapado
-
-    // Referencia al jugador (asignar en el Inspector)
     [Header("Referencia al Jugador")]
     public Transform player;
-
-    // Variable para almacenar la posición inicial del enemigo (usada al regresar)
     private Vector3 initialPosition;
-
-    // Variable para almacenar el punto de patrulla actual
     private Transform currentPatrolTarget;
-
-    // Componente para cambiar el color
     private SpriteRenderer spriteRenderer;
-
-    // Variable para ajustar la rotación (prueba con diferentes valores: 90, -90, 0, etc.)
-    [Header("Ajuste de Rotación")]
-    public float rotationOffset = -90f;
-
-    // Estados del enemigo
-    private enum State { Patrol, Chase, Return }
     private State currentState = State.Patrol;
+
+    private Vector2 lastDirection = Vector2.up; // Guarda la Ãºltima direcciÃ³n del movimiento
+
+    private enum State { Patrol, Chase, Return }
 
     void Start()
     {
-        // Guardamos la posición inicial
         initialPosition = transform.position;
-
-        // Configuramos el primer objetivo de patrulla
         currentPatrolTarget = pointB;
-
-        // Obtenemos el SpriteRenderer para cambiar el color
         spriteRenderer = GetComponent<SpriteRenderer>();
-        if (spriteRenderer == null)
-        {
-            Debug.LogError("No se encontró un SpriteRenderer en " + gameObject.name);
-        }
     }
 
     void Update()
     {
-        // Asegurarse de tener asignado el jugador
-        if (player == null)
-        {
-            Debug.LogWarning("No se ha asignado el jugador en " + gameObject.name);
-            return;
-        }
+        if (player == null) return;
 
-        // Dependiendo del estado, se ejecuta una lógica u otra
         switch (currentState)
         {
             case State.Patrol:
                 Patrol();
-                // Si el jugador entra en el rango de visión, pasamos a estado Chase
-                if (Vector2.Distance(transform.position, player.position) <= detectionRadius)
+                if (CanSeePlayer())
                 {
                     currentState = State.Chase;
-                    if (spriteRenderer != null)
-                        spriteRenderer.color = Color.red; // Cambia el color cuando detecta al jugador
+                    spriteRenderer.color = Color.red;
                 }
                 break;
-
             case State.Chase:
                 Chase();
-                // Si el jugador se aleja del rango de detección, cambiamos a estado Return
-                if (Vector2.Distance(transform.position, player.position) > detectionRadius)
+                if (!CanSeePlayer())
                 {
                     currentState = State.Return;
-                    if (spriteRenderer != null)
-                        spriteRenderer.color = Color.white; // Restauramos el color original
+                    spriteRenderer.color = Color.white;
                 }
-                // Opcional: si el enemigo atrapa al jugador (se acerca demasiado), se puede ejecutar otra acción
-                if (Vector2.Distance(transform.position, player.position) < catchDistance)
+                if (Vector2.Distance(transform.position, player.position) < 0.5f)
                 {
-                    // Por ejemplo, finalizar la partida o cargar otra escena
                     Debug.Log("Jugador atrapado");
                     SceneManager.LoadScene("Ending");
-                    // Ejemplo: SceneManager.LoadScene("Ending");
                 }
                 break;
-
             case State.Return:
                 ReturnToInitial();
-                // Cuando el enemigo llega a su posición inicial, vuelve a patrullar
                 if (Vector2.Distance(transform.position, initialPosition) < 0.1f)
                 {
                     currentState = State.Patrol;
-                    // Se determina el punto de patrulla más cercano para retomar la patrulla
                     currentPatrolTarget = GetClosestPatrolPoint();
                 }
                 break;
         }
     }
 
-    // Método de patrulla entre los puntos A y B
     void Patrol()
     {
-        // Calcular la dirección hacia el punto de patrulla
-        Vector2 direction = (currentPatrolTarget.position - transform.position).normalized;
-        // Actualizar la rotación para que mire hacia el objetivo
-        float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
-        transform.rotation = Quaternion.Euler(0, 0, angle + rotationOffset);
-
-        // Mover al enemigo hacia el punto de patrulla
-        transform.position = Vector2.MoveTowards(transform.position, currentPatrolTarget.position, patrolSpeed * Time.deltaTime);
-
-        // Al llegar, cambiar el objetivo
+        MoveTowards(currentPatrolTarget.position, patrolSpeed);
         if (Vector2.Distance(transform.position, currentPatrolTarget.position) < 0.1f)
-        {
             currentPatrolTarget = (currentPatrolTarget == pointA) ? pointB : pointA;
-        }
     }
 
-    // Método para perseguir al jugador
     void Chase()
     {
-        // Calcular la dirección hacia el jugador
-        Vector2 direction = (player.position - transform.position).normalized;
-        // Actualizar la rotación para que mire al jugador
-        float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
-        transform.rotation = Quaternion.Euler(0, 0, angle + rotationOffset);
-
-        // Mover al enemigo hacia el jugador
-        transform.position = Vector2.MoveTowards(transform.position, player.position, chaseSpeed * Time.deltaTime);
+        MoveTowards(player.position, chaseSpeed);
     }
 
-    // Método para que el enemigo regrese a su posición inicial
     void ReturnToInitial()
     {
-        // Calcular la dirección hacia la posición inicial
-        Vector2 direction = (initialPosition - transform.position).normalized;
-        float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
-        transform.rotation = Quaternion.Euler(0, 0, angle + rotationOffset);
-
-        // Mover al enemigo hacia la posición inicial
-        transform.position = Vector2.MoveTowards(transform.position, initialPosition, patrolSpeed * Time.deltaTime);
+        MoveTowards(initialPosition, patrolSpeed);
     }
 
-    // Ayuda para determinar el punto de patrulla más cercano
-    private Transform GetClosestPatrolPoint()
+    void MoveTowards(Vector3 target, float speed)
     {
-        if (Vector2.Distance(transform.position, pointA.position) < Vector2.Distance(transform.position, pointB.position))
-            return pointA;
-        else
-            return pointB;
+        Vector2 direction = (target - transform.position).normalized;
+
+        if (direction.magnitude > 0.01f)
+        {
+            lastDirection = direction; // Guardar la Ãºltima direcciÃ³n si hay movimiento
+        }
+
+        transform.position = Vector2.MoveTowards(transform.position, target, speed * Time.deltaTime);
+        float angle = Mathf.Atan2(lastDirection.y, lastDirection.x) * Mathf.Rad2Deg;
+        transform.rotation = Quaternion.Euler(0, 0, angle - 90);
     }
 
-    // Dibujar Gizmos para visualizar el rango de visión y la ruta de patrulla en el Editor
+    bool CanSeePlayer()
+    {
+        Vector2 directionToPlayer = (player.position - transform.position).normalized;
+        float adjustedAngle = Vector2.Angle(lastDirection, directionToPlayer);
+
+        if (adjustedAngle > fieldOfView / 2) return false;
+
+        float distanceToPlayer = Vector2.Distance(transform.position, player.position);
+        if (distanceToPlayer > detectionRadius) return false;
+
+        RaycastHit2D hit = Physics2D.Raycast(transform.position, directionToPlayer, detectionRadius, obstacleMask | playerMask);
+        return hit.collider != null && hit.collider.CompareTag("Player");
+    }
+
+    private Transform GetClosestPatrolPoint() 
+    {
+        return Vector2.Distance(transform.position, pointA.position) < Vector2.Distance(transform.position, pointB.position) ? pointA : pointB;
+    }
+
     private void OnDrawGizmos()
     {
-        // Dibuja la línea entre los puntos de patrulla si están asignados
-        if (pointA != null && pointB != null)
-        {
-            Gizmos.color = Color.yellow;
-            Gizmos.DrawLine(pointA.position, pointB.position);
-            Gizmos.DrawWireSphere(pointA.position, 0.2f);
-            Gizmos.DrawWireSphere(pointB.position, 0.2f);
-        }
-        // Dibuja el rango de detección
+        Gizmos.color = Color.yellow;
+        if (pointA != null && pointB != null) Gizmos.DrawLine(pointA.position, pointB.position);
+
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(transform.position, detectionRadius);
+
+        // ðŸ”¹ Usamos lastDirection para la direcciÃ³n del cono de visiÃ³n
+        Vector3 forward = lastDirection;
+        Vector3 leftBoundary = Quaternion.Euler(0, 0, fieldOfView / 2) * forward * detectionRadius;
+        Vector3 rightBoundary = Quaternion.Euler(0, 0, -fieldOfView / 2) * forward * detectionRadius;
+
+        Gizmos.color = new Color(0.5f, 0.5f, 0.5f, 0.3f); // Gris opaco
+        Gizmos.DrawLine(transform.position, transform.position + leftBoundary);
+        Gizmos.DrawLine(transform.position, transform.position + rightBoundary);
     }
 }

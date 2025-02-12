@@ -1,26 +1,58 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\hugom\\Downloads\\Delivery02_GroupE-main\\Delivery02_GroupE-main\\Delivery02_Template\\",
+  "WorkspaceRootPath": "C:\\Users\\Usuario\\Downloads\\StealthGame_GroupE\\Delivery02_Template\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CC5585A9-18FE-3F6B-73A3-17ED3D0983DF}|Assembly-CSharp.csproj|c:\\users\\hugom\\downloads\\delivery02_groupe-main\\delivery02_groupe-main\\delivery02_template\\assets\\scripts\\enemyai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC5585A9-18FE-3F6B-73A3-17ED3D0983DF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemyai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Usuario\\Downloads\\StealthGame_GroupE\\Delivery02_Template\\Assets\\Scripts\\EnemyAI.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\EnemyAI.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CC5585A9-18FE-3F6B-73A3-17ED3D0983DF}|Assembly-CSharp.csproj|C:\\Users\\hugom\\Downloads\\Delivery02_GroupE-main\\Delivery02_GroupE-main\\Delivery02_Template\\assets\\scripts\\enemyalarm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC5585A9-18FE-3F6B-73A3-17ED3D0983DF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemyalarm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Usuario\\Downloads\\StealthGame_GroupE\\Delivery02_Template\\Assets\\Scripts\\VisionDetector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\VisionDetector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CC5585A9-18FE-3F6B-73A3-17ED3D0983DF}|Assembly-CSharp.csproj|C:\\Users\\hugom\\Downloads\\Delivery02_GroupE-main\\Delivery02_GroupE-main\\Delivery02_Template\\assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC5585A9-18FE-3F6B-73A3-17ED3D0983DF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Usuario\\Downloads\\StealthGame_GroupE\\Delivery02_Template\\Assets\\Scripts\\PlayerMovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\PlayerMovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CC5585A9-18FE-3F6B-73A3-17ED3D0983DF}|Assembly-CSharp.csproj|C:\\Users\\hugom\\Downloads\\Delivery02_GroupE-main\\Delivery02_GroupE-main\\Delivery02_Template\\assets\\scripts\\playeranimation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC5585A9-18FE-3F6B-73A3-17ED3D0983DF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playeranimation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Usuario\\Downloads\\StealthGame_GroupE\\Delivery02_Template\\Assets\\Scripts\\EnemyAlarm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\EnemyAlarm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CC5585A9-18FE-3F6B-73A3-17ED3D0983DF}|Assembly-CSharp.csproj|C:\\Users\\hugom\\Downloads\\Delivery02_GroupE-main\\Delivery02_GroupE-main\\Delivery02_Template\\assets\\scripts\\enemypatrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC5585A9-18FE-3F6B-73A3-17ED3D0983DF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemypatrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Usuario\\Downloads\\StealthGame_GroupE\\Delivery02_Template\\Assets\\Scripts\\EnemyPatrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\EnemyPatrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Usuario\\Downloads\\StealthGame_GroupE\\Delivery02_Template\\Assets\\Scripts\\GameEnd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\GameEnd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Usuario\\Downloads\\StealthGame_GroupE\\Delivery02_Template\\Assets\\Scripts\\PlayerAnimation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\PlayerAnimation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Usuario\\Downloads\\StealthGame_GroupE\\Delivery02_Template\\Assets\\Scripts\\UITime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\UITime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Usuario\\Downloads\\StealthGame_GroupE\\Delivery02_Template\\Assets\\Scripts\\Bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Usuario\\Downloads\\StealthGame_GroupE\\Delivery02_Template\\Assets\\Scripts\\DistanceManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\DistanceManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Usuario\\Downloads\\StealthGame_GroupE\\Delivery02_Template\\Assets\\Scripts\\ControladorPuntos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\ControladorPuntos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Usuario\\Downloads\\StealthGame_GroupE\\Delivery02_Template\\Assets\\Scripts\\UIDistance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\UIDistance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Usuario\\Downloads\\StealthGame_GroupE\\Delivery02_Template\\Assets\\Scripts\\TitleManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\TitleManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,17 +62,115 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 8,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UIDistance.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Downloads\\StealthGame_GroupE\\Delivery02_Template\\Assets\\Scripts\\UIDistance.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UIDistance.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Downloads\\StealthGame_GroupE\\Delivery02_Template\\Assets\\Scripts\\UIDistance.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UIDistance.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T18:20:36.099Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "VisionDetector.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Downloads\\StealthGame_GroupE\\Delivery02_Template\\Assets\\Scripts\\VisionDetector.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\VisionDetector.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Downloads\\StealthGame_GroupE\\Delivery02_Template\\Assets\\Scripts\\VisionDetector.cs",
+              "RelativeToolTip": "Assets\\Scripts\\VisionDetector.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T15:33:19.117Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ControladorPuntos.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Downloads\\StealthGame_GroupE\\Delivery02_Template\\Assets\\Scripts\\ControladorPuntos.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ControladorPuntos.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Downloads\\StealthGame_GroupE\\Delivery02_Template\\Assets\\Scripts\\ControladorPuntos.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ControladorPuntos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T00:35:46.345Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GameEnd.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Downloads\\StealthGame_GroupE\\Delivery02_Template\\Assets\\Scripts\\GameEnd.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameEnd.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Downloads\\StealthGame_GroupE\\Delivery02_Template\\Assets\\Scripts\\GameEnd.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameEnd.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T00:15:16.424Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DistanceManager.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Downloads\\StealthGame_GroupE\\Delivery02_Template\\Assets\\Scripts\\DistanceManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\DistanceManager.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Downloads\\StealthGame_GroupE\\Delivery02_Template\\Assets\\Scripts\\DistanceManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\DistanceManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T18:36:17.489Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "TitleManager.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Downloads\\StealthGame_GroupE\\Delivery02_Template\\Assets\\Scripts\\TitleManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\TitleManager.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Downloads\\StealthGame_GroupE\\Delivery02_Template\\Assets\\Scripts\\TitleManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\TitleManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T18:26:20.791Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UITime.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Downloads\\StealthGame_GroupE\\Delivery02_Template\\Assets\\Scripts\\UITime.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UITime.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Downloads\\StealthGame_GroupE\\Delivery02_Template\\Assets\\Scripts\\UITime.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UITime.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T18:21:58.481Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Bullet.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Downloads\\StealthGame_GroupE\\Delivery02_Template\\Assets\\Scripts\\Bullet.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Bullet.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Downloads\\StealthGame_GroupE\\Delivery02_Template\\Assets\\Scripts\\Bullet.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Bullet.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T16:59:46.615Z"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "EnemyAI.cs",
-              "DocumentMoniker": "C:\\Users\\hugom\\Downloads\\Delivery02_GroupE-main\\Delivery02_GroupE-main\\Delivery02_Template\\Assets\\Scripts\\EnemyAI.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Downloads\\StealthGame_GroupE\\Delivery02_Template\\Assets\\Scripts\\EnemyAI.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyAI.cs",
-              "ToolTip": "C:\\Users\\hugom\\Downloads\\Delivery02_GroupE-main\\Delivery02_GroupE-main\\Delivery02_Template\\Assets\\Scripts\\EnemyAI.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Downloads\\StealthGame_GroupE\\Delivery02_Template\\Assets\\Scripts\\EnemyAI.cs",
               "RelativeToolTip": "Assets\\Scripts\\EnemyAI.cs",
-              "ViewState": "AgIAAEQAAAAAAAAAAAAgwGAAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAHsAAAAAAAAAAAAAAI0AAABzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-06T11:43:12.875Z",
               "EditorCaption": ""
@@ -49,21 +179,22 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "EnemyPatrol.cs",
-              "DocumentMoniker": "C:\\Users\\hugom\\Downloads\\Delivery02_GroupE-main\\Delivery02_GroupE-main\\Delivery02_Template\\Assets\\Scripts\\EnemyPatrol.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Downloads\\StealthGame_GroupE\\Delivery02_Template\\Assets\\Scripts\\EnemyPatrol.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyPatrol.cs",
-              "ToolTip": "C:\\Users\\hugom\\Downloads\\Delivery02_GroupE-main\\Delivery02_GroupE-main\\Delivery02_Template\\Assets\\Scripts\\EnemyPatrol.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Downloads\\StealthGame_GroupE\\Delivery02_Template\\Assets\\Scripts\\EnemyPatrol.cs",
               "RelativeToolTip": "Assets\\Scripts\\EnemyPatrol.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-05T12:34:22.121Z"
+              "WhenOpened": "2025-02-05T12:34:22.121Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "PlayerAnimation.cs",
-              "DocumentMoniker": "C:\\Users\\hugom\\Downloads\\Delivery02_GroupE-main\\Delivery02_GroupE-main\\Delivery02_Template\\Assets\\Scripts\\PlayerAnimation.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Downloads\\StealthGame_GroupE\\Delivery02_Template\\Assets\\Scripts\\PlayerAnimation.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerAnimation.cs",
-              "ToolTip": "C:\\Users\\hugom\\Downloads\\Delivery02_GroupE-main\\Delivery02_GroupE-main\\Delivery02_Template\\Assets\\Scripts\\PlayerAnimation.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Downloads\\StealthGame_GroupE\\Delivery02_Template\\Assets\\Scripts\\PlayerAnimation.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerAnimation.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -71,27 +202,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "EnemyAlarm.cs",
-              "DocumentMoniker": "C:\\Users\\hugom\\Downloads\\Delivery02_GroupE-main\\Delivery02_GroupE-main\\Delivery02_Template\\Assets\\Scripts\\EnemyAlarm.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Downloads\\StealthGame_GroupE\\Delivery02_Template\\Assets\\Scripts\\EnemyAlarm.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyAlarm.cs",
-              "ToolTip": "C:\\Users\\hugom\\Downloads\\Delivery02_GroupE-main\\Delivery02_GroupE-main\\Delivery02_Template\\Assets\\Scripts\\EnemyAlarm.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Downloads\\StealthGame_GroupE\\Delivery02_Template\\Assets\\Scripts\\EnemyAlarm.cs",
               "RelativeToolTip": "Assets\\Scripts\\EnemyAlarm.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAzwCEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-05T11:28:12.118Z"
+              "WhenOpened": "2025-02-05T11:28:12.118Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "PlayerMovement.cs",
-              "DocumentMoniker": "C:\\Users\\hugom\\Downloads\\Delivery02_GroupE-main\\Delivery02_GroupE-main\\Delivery02_Template\\Assets\\Scripts\\PlayerMovement.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Downloads\\StealthGame_GroupE\\Delivery02_Template\\Assets\\Scripts\\PlayerMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerMovement.cs",
-              "ToolTip": "C:\\Users\\hugom\\Downloads\\Delivery02_GroupE-main\\Delivery02_GroupE-main\\Delivery02_Template\\Assets\\Scripts\\PlayerMovement.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Downloads\\StealthGame_GroupE\\Delivery02_Template\\Assets\\Scripts\\PlayerMovement.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerMovement.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAQwDYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-05T11:26:32.854Z"
+              "WhenOpened": "2025-02-05T11:26:32.854Z",
+              "EditorCaption": ""
             }
           ]
         }

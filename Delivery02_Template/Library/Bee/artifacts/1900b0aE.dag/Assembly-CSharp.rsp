@@ -381,13 +381,18 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.0.33f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.0.33f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll"
 "Assets/Scripts/Bullet.cs"
+"Assets/Scripts/ControladorPuntos.cs"
 "Assets/Scripts/EnemyAI.cs"
 "Assets/Scripts/EnemyAlarm.cs"
 "Assets/Scripts/EnemyPatrol.cs"
 "Assets/Scripts/EnemyShooter.cs"
+"Assets/Scripts/GameEnd.cs"
 "Assets/Scripts/PlayerAnimation.cs"
 "Assets/Scripts/PlayerMovement.cs"
 "Assets/Scripts/TitleManager.cs"
+"Assets/Scripts/UIDistance.cs"
+"Assets/Scripts/UITime.cs"
+"Assets/Scripts/VisionDetector.cs"
 -langversion:9.0
 /deterministic
 /optimize+
